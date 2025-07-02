@@ -41,7 +41,7 @@ document.getElementById("rejestracja").addEventListener("submit", function(event
     }
 
     if (poprawny) {
-        alert("Rejestracja zakończona sukcesem!");
+        alert("Rejestracja zakończona");
         document.getElementById("rejestracja").reset();
     }
 });
